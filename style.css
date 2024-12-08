@@ -1,0 +1,112 @@
+* {
+    margin: 0 auto;
+    font-family: 'kanit';
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+body {
+    position: relative;
+    background-image: linear-gradient(rgb(212, 0, 255), black);
+    height: 190vh;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.container {
+    position: relative;
+    width: 360px;
+    height: 1200px;
+}
+
+.heading {
+    position: sticky;
+    top: 0px;
+    width: 360px;
+    height: 40px;
+    font-family: 'bangers';
+    background-color: rgb(199, 189, 255);
+    color: rgb(255, 166, 0);
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+.header {
+    position: sticky;
+    top: 40px;
+    width: 360px;
+    height: 320px;
+    background-color: rgb(149, 131, 231);
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+
+.highlight {
+    color: rgb(0, 255, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+.verbs  {
+    color:rgb(255, 145, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+.words {
+    color:rgb(229, 255, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+.subjects {
+    font-family: 'sour gummy';
+    font-weight: 600;
+    color:rgb(229, 255, 0);
+    text-shadow: 1px 1px 1px black;
+}
+
+.buttons {
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color:greenyellow;
+    box-shadow: 1px 1px 2px black;
+    background-color: rgb(0, 129, 146);
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    background-color: greenyellow;
+    color: red;
+}
+
+.buttons:active {
+    box-shadow: 0px 0px 0px;
+}
+
+.btn-translation {
+    width: 350px;
+    height: 55px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: blueviolet;
+    font-size: 20px;
+    font-family: 'sour gummy';
+    box-shadow: 1px 1px 2px black;
+}
+
+.btn-translation:active {
+    box-shadow: 0px 0px 0px;
+}
+
+.correct {
+    visibility: hidden;
+}
