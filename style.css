@@ -10,7 +10,7 @@
 body {
     position: relative;
     background-image: linear-gradient(rgb(212, 0, 255), black);
-    height: 190vh;
+    height: 220vh;
     text-align: center;
     font-size: 1.1rem;
 }
@@ -18,7 +18,7 @@ body {
 .container {
     position: relative;
     width: 360px;
-    height: 1500px;
+    height: 1400px;
 }
 
 .heading {
