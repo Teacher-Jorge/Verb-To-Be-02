@@ -10,7 +10,7 @@
 body {
     position: relative;
     background-image: linear-gradient(rgb(212, 0, 255), black);
-    height: 220vh;
+    height: 190vh;
     text-align: center;
     font-size: 1.1rem;
 }
