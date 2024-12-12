@@ -138,7 +138,7 @@ btn3_am.addEventListener('click', function() {
 })
 
 btn3_translate.addEventListener('click', function() {
-    btn3_translate.textContent = 'Ele não é professor. Ele é mecânico'
+    btn3_translate.textContent = 'Ele não é professor. Ele é mecânico.'
     btn3_translate.style.color = 'kadetBlue'
     setTimeout(() => {
         btn3_translate.textContent = 'Translate'
