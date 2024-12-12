@@ -10,15 +10,16 @@
 body {
     position: relative;
     background-image: linear-gradient(rgb(212, 0, 255), black);
-    height: 240vh;
+    height: 220vh;
     text-align: center;
     font-size: 1.1rem;
 }
 
 .container {
+    background-image: linear-gradient(rgb(212, 0, 255), black);
     position: relative;
     width: 360px;
-    height: 1500px;
+    height: 1700px;
 }
 
 .heading {
